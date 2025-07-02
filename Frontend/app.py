@@ -13,7 +13,7 @@ st.markdown("""
 user_input = st.chat_input("Type your message...")
 if user_input:
     st.session_state.chat_history.append(("You", user_input))
-    res = requests.post(" http://127.0.0.1:8000/chat", json={"message": user_input})
+    res = requests.post("https://schedula-fm3p.onrender.com/chat", json={"message": user_input})
     
     # Print raw response for debugging
     st.write("🔁 RAW RESPONSE:", res.text)
