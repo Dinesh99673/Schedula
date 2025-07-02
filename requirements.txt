@@ -1,6 +1,5 @@
 fastapi==0.115.14
 google_api_python_client==2.174.0
-protobuf==6.31.1
 python-dotenv==1.1.1
 Requests==2.32.4
 uvicorn==0.35.0
